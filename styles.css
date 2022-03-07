@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+
+}
+
+.container {
+    max-width: 1300px;
+    margin:20px auto;
+}
+
+.header404 {
+    font-family: Inconsolata;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.mainarea {
+    display: flex;
+    margin-top: 12%;
+}
+
+.mainarea--scarecrow {
+    width: 50%;
+    margin-right: 8%;
+}
+
+.mainarea--text {
+    font-family: Space Mono;
+    color: #333333;
+
+}
+
+.mainarea--text h1 {
+    max-width: 586px; 
+    /* height: 190px; */
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.mainarea--text p {
+    max-width: 381px;
+    /* height: 108px; */
+    margin-bottom: 50px;
+
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.mainarea--text button {
+    width: 216px;
+    height: 68px;
+    background: #333333;
+
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 21px;
+    
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.mainarea--text button:hover {
+    transition: filter 200ms;
+    filter:brightness(170%);
+}
+
+
+@media screen and  (max-width: 850px) {
+    .mainarea {
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .mainarea--scarecrow {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+    .mainarea--text {
+        margin-left: 50px;
+    }
+
+    .mainarea--text h1 {
+        max-width: 350px;
+        line-height: 71px;
+        font-size: 3rem;
+    }
+
+    .mainarea--text p {
+        max-width: 328px;
+        font-size: 1.125rem;
+        line-height: 27px;
+    }
+
+
+}
+    
+
+
+
+
