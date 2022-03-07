@@ -64,5 +64,5 @@ Special thanks to W3Schools, MDN and UDEMY
 ## Contact
 
 
-- GitHub [@your-username](https://{github.com/vinaximus})
-- Twitter [@your-twitter](https://{twitter.com/itwork4u})
+- GitHub [@vinaximus](https://github.com/vinaximus)
+- Twitter [@itwork4u](https://twitter.com/itwork4u)
